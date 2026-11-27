@@ -1,0 +1,9 @@
+@'
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+create_admin.php
+config.local.php
+*.log
+'@ | Set-Content -Path .gitignore -Encoding ascii
